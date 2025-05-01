@@ -131,7 +131,7 @@ ol {
 
 .headerLogo {
   position: relative; 
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   width: auto;
   border-radius: 50%;
@@ -234,12 +234,12 @@ ol {
 
 .HeaderNavOption {
   text-align: right;
-  padding: 60px 0px;
 }
 
 .HeaderNavMenu {
   display: inline-block;
   margin-right: 45px;
+  margin-top:40px;
 }
 .HeaderNavMenu ul li {
   list-style: none;
@@ -269,7 +269,7 @@ ol {
   text-transform: uppercase;
   position: relative;
   padding: 6px 0;
-  text-decoration: none; /* Removes the underline */
+  text-decoration: none; 
 }
 .HeaderNavMenu ul li a:after {
   position: absolute;
@@ -334,11 +334,11 @@ ol {
   margin: 0 auto;
 }
 
-/* Style for all dots */
+
 .visualSlider.owl-carousel .owl-dots .owl-dot {
     width: 12px;
     height: 12px;
-    background-color: red !important; /* Inactive dots are red */
+    background-color: red !important;
     border-radius: 50%;
     margin: 0 5px;
     display: inline-block;
@@ -346,11 +346,11 @@ ol {
     opacity: 0.6; /* Slight opacity for inactive dots */
 }
 
-/* Active dot styling */
+
 .visualSlider.owl-carousel .owl-dots .owl-dot.active {
-    background-color: #15ff00 !important; /* Active dot turns green */
-    transform: scale(1.5); /* Slight enlargement for active dot */
-    opacity: 1; /* Fully visible */
+    background-color: #15ff00 !important; 
+    transform: scale(1.5); 
+    opacity: 1;
 }
 
 .services_div .container .row .servicescontent{
@@ -522,42 +522,41 @@ ol {
 
 
 .aboutmetext {
-    padding-left: 30px; /* Adds padding for better alignment */
+    padding-left: 30px;
     font-size: 18px;
     line-height: 1.6;
     margin: 20px 0;
-    color: #333; /* Text color */
-    font-family: 'Arial', sans-serif; /* Clean, easy-to-read font */
+    color: #333; 
+    font-family: 'Arial', sans-serif;
 }
 
 .aboutmetext h2 {
-    font-size: 32px; /* Larger font for visibility */
+    font-size: 32px;
     font-weight: bold;
-    color: #ffcc00; /* Bright yellow for emphasis */
+    color: #ffcc00; 
     margin-bottom: 15px;
     text-align: left;
-    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    font-family: 'Roboto', sans-serif;
 }
 
 .highlight {
-    color: #ff5733; /* Bright color to highlight key terms */
-    font-weight: bold; /* Emphasizes the highlighted terms */
+    color: #ff5733;
+    font-weight: bold; 
 }
 
 p {
     font-size: 18px;
     line-height: 1.8;
-    margin-bottom: 15px; /* Adds space between paragraphs */
+    margin-bottom: 15px;
 }
 
-/* Optional: Adding a subtle shadow to the heading for more visual appeal */
+
 .aboutmetext h2 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-/* Optional: Highlighted words with a light background */
 .highlight {
-    background-color: rgba(255, 87, 34, 0.2); /* Light orange background */
+    background-color: rgba(255, 87, 34, 0.2); 
     padding: 0 4px;
 }
 
@@ -839,20 +838,19 @@ img.img-fluid {
 
 
 .logo-text {
-    margin-left: 15px; /* Space between the logo and the text */
-    font-size: 24px; /* Default font size */
-    color: #ffffff; /* Default white color text */
-    font-family: 'Roboto', sans-serif; /* Modern, clean font */
-    font-weight: 500; /* Semi-bold text for emphasis */
-    line-height: 1.5; /* Adjust line height for readability */
-    display: inline-block; /* Ensures text stays inline with the image */
-    vertical-align: middle; /* Aligns text in the center with the image */
-    white-space: nowrap; /* Prevent text from wrapping onto the next line */
-    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient background from pink to orange */
-    -webkit-background-clip: text; /* Clips the background to the text */
-    color: transparent; /* Makes the text color transparent so gradient is visible */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Adds a subtle shadow for depth */
-    padding: 2px; /* Adds a small padding to make the text stand out */
+    margin-left: 15px;
+    font-size: 24px;
+    color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 2px;
 }
 
 
@@ -956,19 +954,16 @@ img.img-fluid {
     max-width: 930px !important;
   }
 
-  .HeaderNavOption{
-
-    padding: 40px 0px;
-  }
+  
 }
-/* Tablet saDevice = 768px */
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .visualSlider.owl-carousel .owl-dots {
     max-width: 690px !important;
   }
 .logo-text {
-        font-size: 20px; /* Smaller font size for tablets */
-        margin-left: 12px; /* Adjust left margin */
+        font-size: 20px; 
+        margin-left: 12px; 
     }
 
   .headerLogo {
@@ -1041,15 +1036,15 @@ img.img-fluid {
 }
 
 
-/* Wide Mobile = 480px */
+
 @media only screen and (max-width: 767px) {
 
   .headerLogo {
     max-width: 70px;
   }
 .logo-text {
-        font-size: 18px; /* Even smaller font size for small screens */
-        margin-left: 10px; /* Adjust left margin */
+        font-size: 18px; 
+        margin-left: 10px; 
     }
 
   .aboutmepic {
@@ -1139,11 +1134,22 @@ img.img-fluid {
     line-height: 40px;
   }
 
-  .logo-text {
-        font-size: 16px; /* Smallest font size for very small screens */
-        margin-left: 8px; /* Adjust left margin */
+    .logo-text {
+          font-size: 16px;        
+          margin-left: 8px; 
     }
 
   
 }
 
+@media (min-width: 768px) {
+    .container,.container-md,.container-sm {
+        max-width: 1200px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 1200px !important;
+    }
+}
